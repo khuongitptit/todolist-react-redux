@@ -1,0 +1,48 @@
+body {
+  background-color: aqua;
+  color: indianred;
+}
+body .add-task {
+  margin-top: 40px;
+}
+body .add-task h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body .add-task input {
+  background-color: lawngreen;
+  color: maroon;
+  border: 1px solid yellow;
+  margin-top: 30px;
+}
+body .add-task button {
+  margin-left: 30px;
+  background-color: mediumslateblue;
+  border-radius: 10px;
+  border: 1px solid red;
+  margin-top: 30px;
+}
+body .list-task ul {
+  list-style-type: none;
+}
+body .list-task li button {
+  background-color: olive;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+body .list-task li h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: saddlebrown;
+  margin-left: 10px;
+}
+.footer{
+  position: fixed;
+  left: 10px;
+  bottom: -30px;
+}
+a{
+  color: brown;
+}
+a :hover{
+  color: darkblue;
+}
+/*# sourceMappingURL=index.css.map */

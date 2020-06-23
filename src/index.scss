@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    color: indianred;
+    .add-task{
+        margin-top: 40px;
+        h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        input{
+            background-color: lawngreen;
+            color: maroon;
+            border: 1px solid yellow;
+            margin-top: 30px;
+        }
+        button{
+            margin-left: 30px;
+            background-color: mediumslateblue;
+            border-radius: 10px;
+            border: 1px solid red;
+            margin-top: 30px;
+        }
+    }
+    .list-task{
+        ul{
+            list-style-type: none;
+        }
+        li{
+            button{
+                background-color: olive;
+                border-radius: 5px;
+                margin-left: 5px;
+            }
+            h3{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: saddlebrown;
+                margin-left: 10px;
+            }
+        }
+    }
+}
